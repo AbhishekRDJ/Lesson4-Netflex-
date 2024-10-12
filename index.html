@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflex Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="class1">
+        <div class="box">
+            <div class="nev">
+                <img src="Asset/imges/Icon.svg" alt="">
+                <div class="nev_button">
+                    <button class="btn" id="Language_selector">English &darr;</button>
+                    <button class="btn Red-btn" id="sign_in_Button">Sign In</button>
+
+                </div>
+            </div>
+            <div class="class1_content">
+                <div id="_1">Unlimited movies,TV</div>
+                <div id="2">shows and more</div>
+                <div id="3">Starts at ₹149. Cancel at any time.</div>
+                <div id="4">Ready to watch? Enter your email to create or restart your membership.</div>
+                <div class="detail">
+                    <input type="email" placeholder="Email Address" required>
+
+                    <button class="btn Red-btn Getting_start">Get Started &#x27A4;</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="class">
+        <div class="partition"></div>
+    </div>
+    <div class="class2">
+        <div class="head2">
+            <h1 id="class2_head">Trending Now</h1>
+            <div class="classifaction">
+                <select name="india" id="level">
+                    <option label="India" value="local" selected="">India</option>
+                    <option label="Global" value="global">Global</option>
+                </select>
+                <select name="india" id="Movie">
+                    <option label="Movies" value="localMovies" selected="">Movies</option>
+                    <option label="TV Shows" value="localTv">TV Shows</option>
+                </select>
+            </div>
+
+            <div class="Movie_list" class="mySwiper" pagination="true">
+                <div class="card">
+                    <span
+                        style="background-image:url(https://occ-0-2087-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABeNW_c9U9xz-Et1ZyU6zq1A1X3Dpuw90kY4WTTX0QqT4Rob8rlDd4Mf17LnqNX6gM74q5aFjQYrm6Qh_Q_EKy8nIXrmKqcPcmdg0zLxXZgSdtu2nUMRa6PxDDGR8M7oGuD3ujQNmDWC9aCnW3THvp4e-LQv46PNAEJwsV1pFD7CQAoFEHu_eOUHvgH2XQxsXjb4QU-pjKFKRs7nRS5N7eFOL9Slo2nWZqW5fB6jvhFJq7PPEu_qMYmS4EkjitCOpa5E8GmbfZwv4jbRGahoc1J4QLX8UuG2CzftTm8Fxw-VmMxsx-MPTM23iLhefxi2FaaLNT-JAAjzYeeEh6eS2l7I.webp?r=7a3)"
+                        class="default-ltr-cache-cf8xw5 ekc72im3"></span>
+                </div>
+                <div class="card">
+                    <span
+                        style="background-image:url(https://occ-0-2087-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABekOyOEc0IMYCBzL1U12H-gMP39eTC0zZ0CawiEZfsVVEVfuzAXMWo1_7HVifGiVAezM9MLKJ-zMYF5vU2NZj1GAFKpJhPsJ9wD8412kiexuLATsJwlbCipYevBS8u1H_C0GtTn9c_dBQCtGd1H7CsnPPEeeLBX_VOpjX3-MufmSG3wQycmQXMFQVYJT4Pz8SM98uF8rVn1JhdfcmuopEFfxoojgtxEMvhFWitJ_62GUbqydRNfqfpurMuRLitUusP3nmdQGJ0G_I8ryAjgF4Ur7F2WKNrSALVuW3SarpyVl0Q4rv9U2IwglhY0wk_AGVwhJMiC1SNYaoofog4iInvE.webp?r=6b0)"
+                        class="default-ltr-cache-cf8xw5 ekc72im3"></span>
+                </div>
+                <div class="card">
+                    <span
+                        style="background-image:url(https://occ-0-2087-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABQlhuLDSFXrtuLYjXJUva-J4u1j1MstHGwg5edWUYAaJQoRvUD9EYyEDvjP4rkJSVXa-qIeoO28-plwGJhGr8lG4jMypkQBXhllC_uu53LgEH6gI7GNxKLAgMe94KW8YkEBUvATzfJ5P-e5eJYiRVO2iXpShZDfZqC7dggO8lXcDD0gszeFGJHdc2ZAmWfrzzgQ5yK-UlqWLe2zMpwRe3k6Xo29_FqmSX4w1-YayEbd2Yl3kmjSlKOGXimqDynL_vl_AtlJjb-GNfCNab54967NU3F-A8kwOVa3ATfQk15TPRRR_CDKtIeHjnha43XXQVLKZzsd8CS_kJ7_nrV7mw4jv6hGLUU8WlJkuHEFX_vKhA93srTs.webp?r=cb7)"
+                        class="default-ltr-cache-cf8xw5 ekc72im3"></span>
+                </div>
+                <div class="card">
+                    <span
+                        style="background-image:url(https://occ-0-2087-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABQQaAEyFlAZti5cHqUIjHQyDXKgJdWmhZYcFy3TGJxSpMW0mU3-zYLcZwdnMz34pwG77OpbIjovQIqlL2Ojj5Dz2PQks0-0R3Ceylcil-b5X1j4wFVyHzCXbWmJmBPDtiUV8q6cNXbdTtaB1EWmS8utsPwhWLBUP_4tz7pjsM_vtrJegWydkcqaTpYN1h8MV4kR2UygB4dXlPBv0hBS8Lp2jHnVuMSBg1nJD1_p-4-m9JGhWTIcl9IGhI1f5EIV8d_zV8TRysIMJ7Hl7w6Ouy7YIdck8.webp?r=d7f)"
+                        class="default-ltr-cache-cf8xw5 ekc72im3"></span>
+                </div>
+                <div class="card">
+                    <span
+                        style="background-image:url(https://occ-0-2087-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABRI6G-YI41kxtUQ_Q7Zbv2hDMmaE6UO55X8-4MeSYoCmguFroUSLc6D3e2LpBqDv0xvH8vMC_uBJW1yNZH2PiNJhVGWcBKcgGVcsyZpP_oeVvbdBYD4LYMD52UrTWWdW6ibdJ_d9x5s5T9CZF76OrfKCCXHjUHkauask_ikoPuKd9E30OiIxNnvutvKd_FxT9YLe9Rd1lJceznPKoB0vBtZ1iI0UfRme4Stq9DuRIyr3Jx-YVbaWjDxvPjr90ihIfKXKoOxGNOFHQOv9JumyvyJAWdKvs4tNlqj7RABPczxWHAjg_WtVvyEmY7mmb2QKDaIHnebpl1NDHttdN1xsAoQ.webp?r=4e6)"
+                        class="default-ltr-cache-cf8xw5 ekc72im3"></span>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- <div class="class">
+        <div class="partition"></div>
+    </div> -->
+    <div class="class3">
+        <div class="head2">
+            <h2 id="class3_head">More reasons to join
+            </h2>
+
+        </div>
+        <div class="card2_slot">
+            <div class="card2">
+                <div class="inner_card2">
+
+                    <h2>Enjoy on your TV
+                    </h2>
+                    <div class="description_card2">
+                        Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.
+
+
+                    </div>
+                    <div class="log_card2">
+                        <div class="img">
+                            <img src="Asset/imges/card1_img.png" alt="TV Icon">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="card2">
+                <div class="inner_card2">
+
+                    <h2>Download your shows to watch offline
+                    </h2>
+                    <div class="description_card2">
+                        Save your favourites easily and always have something to watch.
+                    </div>
+                    <div class="log_card2">
+                        <div class="img">
+                            <img src="asset/imges/card2_img.png" alt="TV Icon">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="card2">
+                <div class="inner_card2">
+
+                    <h2>Watch everywhere
+                    </h2>
+                    <div class="description_card2">
+                        Stream unlimited movies and TV shows on your phone, tablet, laptop and TV.
+
+                    </div>
+                    <div class="log_card2">
+                        <div class="img">
+                            <img src="Asset/imges/card3_img.png" alt="TV Icon">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="card2">
+                <div class="inner_card2">
+
+                    <h2>Create profiles for kids
+                    </h2>
+                    <div class="description_card2">
+                        Send kids on adventures with their favourite characters in a space made just for them — free
+                        with your membership.
+
+                    </div>
+                    <div class="log_card2">
+                        <div class="img">
+                            <img src="asset/imges/card4_img.png" alt="TV Icon">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="class4">
+        <div class="head2">
+            <h1>Frequently Asked Questions</h1>
+            <div class="class4_box">
+                <div class="boxes">
+                    <h2>What is Netflix?</h2>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" role="img" viewBox="0 0 36 36" width="36"
+                        height="36" data-icon="PlusLarge" aria-hidden="true"
+                        class="elj7tfr3 default-ltr-cache-b59fc3-Icon-StyledAccordionIcon e164gv2o4">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M17 17V3H19V17H33V19H19V33H17V19H3V17H17Z"
+                            fill="currentColor"></path>
+                    </svg>
+
+                </div>
+                <div class="boxes">
+                    <h2>How much does Netflix cost?</h2>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" role="img" viewBox="0 0 36 36" width="36"
+                        height="36" data-icon="PlusLarge" aria-hidden="true"
+                        class="elj7tfr3 default-ltr-cache-b59fc3-Icon-StyledAccordionIcon e164gv2o4">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M17 17V3H19V17H33V19H19V33H17V19H3V17H17Z"
+                            fill="currentColor"></path>
+                    </svg>
+
+                </div>
+                <div class="boxes">
+                    <h2>Where can I watch?</h2>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" role="img" viewBox="0 0 36 36" width="36"
+                        height="36" data-icon="PlusLarge" aria-hidden="true"
+                        class="elj7tfr3 default-ltr-cache-b59fc3-Icon-StyledAccordionIcon e164gv2o4">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M17 17V3H19V17H33V19H19V33H17V19H3V17H17Z"
+                            fill="currentColor"></path>
+                    </svg>
+
+                </div>
+                <div class="boxes">
+                    <h2>How do I cancel?</h2>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" role="img" viewBox="0 0 36 36" width="36"
+                        height="36" data-icon="PlusLarge" aria-hidden="true"
+                        class="elj7tfr3 default-ltr-cache-b59fc3-Icon-StyledAccordionIcon e164gv2o4">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M17 17V3H19V17H33V19H19V33H17V19H3V17H17Z"
+                            fill="currentColor"></path>
+                    </svg>
+
+                </div>
+                <div class="boxes">
+                    <h2>How do I cancel?</h2>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" role="img" viewBox="0 0 36 36" width="36"
+                        height="36" data-icon="PlusLarge" aria-hidden="true"
+                        class="elj7tfr3 default-ltr-cache-b59fc3-Icon-StyledAccordionIcon e164gv2o4">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M17 17V3H19V17H33V19H19V33H17V19H3V17H17Z"
+                            fill="currentColor"></path>
+                    </svg>
+
+                </div>
+                <div class="boxes">
+                    <h2>Is Netflix good for kids?</h2>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" role="img" viewBox="0 0 36 36" width="36"
+                        height="36" data-icon="PlusLarge" aria-hidden="true"
+                        class="elj7tfr3 default-ltr-cache-b59fc3-Icon-StyledAccordionIcon e164gv2o4">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M17 17V3H19V17H33V19H19V33H17V19H3V17H17Z"
+                            fill="currentColor"></path>
+                    </svg>
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="class5">
+        <p>Ready to watch? Enter your email to create or restart your membership.
+        </p>
+        <div class="detail detail2">
+            <input type="email" placeholder="Email Address" id="class5_input">
+
+            <button class="btn Red-btn Getting_start class5_input_btn">Get Started &#x27A4;</button>
+
+        </div>
+        <div class="row1">
+            Questions? Call <a href="">000-800-919-1694</a>
+        </div>
+        <div class="listrows">
+            <div class="row2">
+                <div class="balance"><a href="">FAQ</a></div>
+                <div class="balance"><a href="">
+                        Help Centre</a></div>
+                <div class="balance"><a href="">
+                        Account</a></div>
+                <div class="balance"><a href="">
+                        Media Centre</a></div>
+            </div>
+            <div class="row3">
+                <div class="balance"><a href="">Investor Relations</a></div>
+                <div class="balance"><a href="">
+
+                        Jobs</a></div>
+                <div class="balance"><a href="">
+                        Ways to Watch</a></div>
+                <div class="balance"><a href="">
+                        Terms of Use</a></div>
+            </div>
+            <div class="row4">
+                <div class="balance"><a href="">Privacy</a></div>
+                <div class="balance"><a href="">
+
+                        Cookie Preferences</a></div>
+                <div class="balance"><a href="">
+
+                        Corporate Information</a></div>
+                <div class="balance"><a href="">
+
+                        Contact Us</a></div>
+            </div>
+            <div class="row5">
+                <div class="balance" id="edit"><a href="">Speed Test</a></div>
+                <div class="balance" id="edit"><a href="">
+                        Legal Notices</a></div>
+                <div class="balance" id="edit"><a href="">
+
+                        Only on Netflix</a></div>
+
+            </div>
+
+        </div>
+        <div class="lastrow">
+            <div class="nev_button">
+                <button class="btn" id="Language_selector">English &darr;</button>
+
+            </div>
+        </div>
+        <div class="netflex_name">
+            Netflix India
+        </div>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+</body>
+
+</html>

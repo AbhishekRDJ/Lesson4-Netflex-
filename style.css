@@ -1,0 +1,709 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: black;
+}
+
+.class1 {
+    background-color: red;
+    background-image: url('Asset/imges/Background.jpg'), linear-gradient(black, red);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+}
+
+
+.box {
+    background-color: rgba(0, 0, 0, 0.777);
+    height: 100vh;
+}
+
+.nev {
+    background-color: transparent;
+    height: 8vh;
+    width: 80vw;
+    margin: auto;
+    align-content: center;
+    padding: 1vw;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nev img {
+    width: 10vw;
+    color: red;
+
+}
+
+.nev_button {
+    /* background-color: red; */
+    display: flex;
+    gap: 2rem;
+    height: 2rem;
+    padding: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+#Language_selector {
+    height: 2rem;
+    background-color: transparent;
+    padding: 1px 32px 1px 32px;
+    border: 1px solid rgb(190, 183, 183);
+    color: white;
+}
+
+#sign_in_Button {
+    height: 2rem;
+    background-color: red;
+    padding: 1px 15px 1px 15px;
+    color: white;
+    font-weight: bold;
+    border: 0px solid rgb(190, 183, 183);
+
+
+}
+
+.class1_content {
+    /* background-color: red; */
+    height: calc(92vh - 8vh);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#_1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+
+    font-style: normal;
+}
+
+#_2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#_3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+}
+
+#_4 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+
+.class1_content> :nth-child(1) {
+    font-size: 4rem;
+    font-weight: bolder;
+    display: flex;
+    margin: 0px 60px;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.class1_content> :nth-child(2) {
+    display: flex;
+    font-size: 4rem;
+    margin: 0px 60px;
+    font-weight: bolder;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.class1_content :nth-child(3) {
+    display: flex;
+    font-size: 1.3rem;
+    margin: 0px 60px;
+    margin-top: 15px;
+    font-weight: 900;
+    align-items: center;
+    margin-bottom: 30px;
+    justify-content: center;
+
+
+
+    /* color: red; */
+}
+
+.class1_content :nth-child(4) {
+    display: flex;
+    color: rgb(255, 255, 255);
+    margin: 0px 60px;
+    font-size: 1rem;
+    font-weight: 500;
+    word-spacing: 1px;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.5;
+    margin: 2rem 0rem 0rem 0rem;
+    /* background-color: black; */
+
+}
+
+.class1_content> :nth-child(4) {
+    display: flex;
+    font-size: 1rem;
+    margin: 10px 60px;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.detail {
+    height: 5rem;
+    display: flex;
+    gap: 0.5vw;
+
+    margin-top: 10px;
+
+    /* background-color: black; */
+}
+
+.detail input {
+    background-color: transparent;
+    border: 1px solid rgb(194, 177, 177);
+    border-radius: 5px;
+    padding: 1px 180px 1px 20px;
+    height: 4rem;
+    color: white;
+}
+
+.btn {
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ff4081;
+    /* Change background color on hover */
+    transform: scale(1.1);
+    /* Slightly enlarge the button */
+}
+
+.btn:active {
+    transform: scale(0.95);
+    /* Shrink the button on click */
+}
+
+.Getting_start {
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.Getting_start:hover {
+    background-color: #ff4081;
+    /* Change background color on hover */
+    transform: scale(1.01);
+    /* Slightly enlarge the button */
+}
+
+.Getting_start:active {
+    transform: scale(0.9);
+    /* Shrink the button on click */
+}
+
+.detail button {
+    background-color: transparent;
+    border: 0px solid rgb(194, 177, 177);
+    font-size: larger;
+    font-weight: bold;
+    padding: 1px 30px 1px 30px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: rgb(200, 9, 9);
+    height: 3.8rem;
+    margin-top: 0.4vh;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.partition {
+    background-color: gray;
+    height: 0.2rem;
+}
+
+.class2 {
+    /* background-color: red; */
+    height: 70vh;
+    width: 80vw;
+    margin: auto;
+    padding: 22px;
+
+    /* Center the background image */
+}
+
+.classifaction {
+    display: flex;
+    gap: 1rem;
+    margin-left: 10px;
+    width: fit-content;
+    /* background-color: red; */
+}
+
+.classifaction select {
+    padding: 15px 20px;
+    /* Increased vertical and horizontal padding */
+    font-size: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    /* padding-bottom: 200px; */
+    border: 1px solid #444;
+    /* Darker border to match the design */
+    background-color: #1c1c1c;
+    /* Dark background color */
+    color: transparent;
+    /* Light text color */
+    cursor: pointer;
+    transition: border-color 0.3s ease-in-out;
+    outline: none;
+}
+
+.classifaction select:hover {
+    border-color: #666;
+    /* Slightly lighter border on hover */
+}
+
+.classifaction select:focus {
+    border-color: #999;
+    /* Even lighter border when focused */
+    box-shadow: none;
+    /* Removes glow effect */
+}
+
+.classifaction {
+    display: flex;
+    gap: 1rem;
+    margin-left: 10px;
+    width: fit-content;
+}
+
+.classifaction select {
+    padding: 15px 20px;
+    /* Increased vertical and horizontal padding */
+    font-size: 11px;
+    /* Adjust font size as needed */
+    border-radius: 10px;
+    /* appearance: none; Remove default select styling */
+    width: 200px;
+    /* Set width of the select box */
+    border: 1px solid #444;
+    /* Darker border */
+    background-color: #1c1c1c;
+    /* Dark background color */
+    color: #fff;
+    /* White text color */
+    cursor: pointer;
+    transition: border-color 0.3s ease-in-out;
+    outline: none;
+    position: relative;
+    /* To position the arrow */
+}
+
+/* Custom arrow */
+.classifaction select::after {
+    content: '';
+    /* Use an empty string */
+    position: absolute;
+    /* Position it absolutely */
+    right: 20px;
+    /* Adjust to fit the padding */
+    top: 50%;
+    /* Center it vertically */
+    transform: translateY(-50%);
+    /* Center the arrow */
+    border: solid transparent;
+    /* Create a transparent border */
+    border-width: 5px 5px 0 5px;
+    /* Adjust arrow size */
+    border-top-color: #fff;
+    /* Color of the arrow */
+    pointer-events: none;
+    /* Prevent the arrow from interfering with clicks */
+}
+
+.class2 h1 {
+
+    font-weight: bold;
+    padding: 10px;
+}
+
+.class2 select {
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+
+
+    border: 1px solid rgb(183, 166, 166);
+    height: 2rem;
+    width: 5rem;
+    background-color: transparent;
+
+}
+
+.head2 {
+    color: white;
+}
+
+.Movie_list {
+    /* background-color: red; */
+
+    height: 40vh;
+    gap: 1vw;
+    margin: 20px;
+    padding: 0.4rem 1.375rem;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+    margin-top: 20px;
+
+}
+/* .Movie_list{
+    width: 100%;
+    height: 100%;
+  }
+
+  .card {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  } */
+
+.card {
+    cursor: pointer;
+    margin: auto;
+    border-radius: 10px;
+    height: 40vh;
+    width: 13vw;
+    border: 2px solid white;
+    display: flex;
+    background-color: black;
+    box-shadow: 0 4px 8px rgba(22, 58, 202, 0.762), 0 6px 20px rgba(0, 0, 0, 0.19);
+    /* Background shadow */
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+    /* Smooth transition for both shadow and position */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 10px 20px 20px rgba(95, 118, 212, 0.618), 0 10px 30px rgba(0, 0, 0, 0.25);
+    /* Enhanced shadow on hover */
+    transform: translateY(-10px);
+    /* Moves the card upwards by 10px */
+    transform: scale(1.05);
+    /* Slightly enlarge the card */
+    /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); Add shadow */
+}
+
+.card span {
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(27, 135, 223, 0.2);
+    /* Shadow for the image inside span */
+    flex-grow: 1;
+}
+
+.class3 {
+    /* height: 20vh; */
+    /* background-color: red; */
+    height: 55vh;
+    width: 80vw;
+    margin: auto;
+    padding: 22px;
+}
+
+.class3 h2 {
+    font-weight: bolder;
+    margin-left: 20px;
+}
+
+.card2_slot {
+    display: flex;
+    /* background-color: blue; */
+    height: 45vh;
+    margin: 10px;
+    padding: 20px;
+    gap: 1rem;
+    margin: auto;
+
+}
+
+.card2 {
+    /* background-color: red; */
+    border-radius: 10px;
+    padding: 10px;
+    border: 0px solid white;
+    background-color: #1c1c1c;
+    width: 400px;
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    position: relative;
+    text-align: left;
+    /* cursor: pointer; */
+    background: linear-gradient(135deg, #172e8cd5, #0e142ca7, #180b35c7, #310808a2);
+
+}
+
+.inner_card2 {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.inner_card2 h2 {
+    font-weight: bolder;
+    padding-left: 20px;
+    font-size: 1.5rem;
+    padding-top: 5px;
+    padding-right: 0px;
+    display: flex;
+    /* background-color: red; */
+    margin-bottom: 15px;
+    /* justify-content:center; */
+    margin-left: 0;
+    align-items: center;
+    padding-left: 0px;
+
+}
+
+.description_card2 {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: rgb(201, 197, 197);
+}
+
+.log_card2 {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.log_card2 img {
+    /* width: 50px; */
+    height: 10vh;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.log_card2 img:hover {
+    box-shadow: 0 0px 8px rgba(85, 9, 46, 0.762), 0 6px 20px rgba(17, 96, 181, 0.19);
+
+}
+
+/* class4 */
+#class3_head {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    font-style: normal;
+}
+
+#class2_head {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    font-style: normal;
+}
+
+.class4 {
+    /* background-color: red; */
+    height: 105vh;
+    width: 80vw;
+    margin: auto;
+    padding: 22px;
+}
+
+.class4 h1 {
+
+    /* padding: 10px; */
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    font-style: normal;
+}
+
+.class4 h2 {
+    font-weight: lighter;
+
+    padding: 10px;
+    padding-bottom: 20px;
+    /* font-weight: bold; */
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+.class4_box {
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+.boxes {
+    cursor: pointer;
+    background-color: #2d2d2d;
+    display: flex;
+    padding: 0.8rem;
+    padding-right: 20px;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.boxes:hover {
+    transition: all 0.5s ease-out;
+    background-color: #414141;
+}
+
+.class5 {
+    /* background-color: red; */
+    height: 55vh;
+
+    width: 80vw;
+    margin: auto;
+    padding: 22px;
+    padding-top: 40px;
+}
+
+.class5 p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blue; */
+    /* display: inline; */
+    width: 40vw;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin: auto;
+    margin-bottom: 20px;
+
+}
+
+#class5_input {
+    width: 30vw;
+    /* background-color: black; */
+}
+
+.detail2 {
+    display: flex;
+    justify-content: center;
+}
+
+#class5_input_btn {
+    width: 10vw;
+}
+
+.class5{
+    /* background-color: red; */
+    height: 105vh;
+    width: 80vw;
+    margin: auto;
+    padding: 22px;
+    color: rgba(255, 255, 255, 0.7);;
+}
+.class5 a{
+    
+    color: rgba(255, 255, 255, 0.7);;
+}
+.row1{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding: 5px;
+    font-size: larger;
+}
+.listrows{
+    /* background-color: yellow; */
+    padding: 5px;
+    gap: 1px;
+}
+.row2, .row3, .row4, .row5{
+    margin:30px;
+    margin-bottom: 5px;
+    display: flex;
+    gap: 10rem;
+    /* background-color: pink; */
+} 
+.balance{
+    /* background-color: red; */
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start
+}
+#edit{
+    /* background-color: red; */
+    width: 170px;
+}
+.lastrow{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+    .class1_content> :nth-child(1),
+    .class1_content> :nth-child(2) {
+        font-size: 2rem;
+    }
+}
