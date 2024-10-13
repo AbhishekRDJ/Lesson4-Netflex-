@@ -380,6 +380,7 @@ body {
     margin-top: 20px;
 
 }
+
 /* .Movie_list{
     width: 100%;
     height: 100%;
@@ -596,7 +597,75 @@ body {
     background-color: #414141;
 }
 
+.boxes_info {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    height: 30vh;
+    padding: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    visibility: hidden;  /* Start hidden */
+    opacity: 0;           /* Start invisible */
+    transition: opacity 0.5s ease, visibility 0s linear 0.5s; /* Smooth transition */
+}
+
+#box6_info{
+    color: white;
+    visibility: hidden;  /* Start hidden */
+    opacity: 0;           /* Start invisible */
+    display: none;
+    transition: opacity 0.5s ease, visibility 0s linear 0.5s; /* Smooth transition */
+}
+#box1_info{
+    color: white;
+    visibility: hidden;  /* Start hidden */
+    opacity: 0;           /* Start invisible */
+    display: none;
+    transition: opacity 0.5s ease, visibility 0s linear 0.5s; /* Smooth transition */
+
+}
+#box2_info{
+    color: white;
+    visibility: hidden;  /* Start hidden */
+    opacity: 0;           /* Start invisible */
+    display: none;
+    transition: opacity 0.5s ease, visibility 0s linear 0.5s; /* Smooth transition */
+
+}
+#box3_info{
+    color: white;
+    visibility: hidden;  /* Start hidden */
+    opacity: 0;           /* Start invisible */
+    display: none;
+    transition: opacity 0.5s ease, visibility 0s linear 0.5s; /* Smooth transition */
+
+}
+#box4_info{
+    color: white;
+    visibility: hidden;  /* Start hidden */
+    opacity: 0;           /* Start invisible */
+    display: none;
+    transition: opacity 0.5s ease, visibility 0s linear 0.5s; /* Smooth transition */
+
+}
+#box5_info{
+    color: white;
+    visibility: hidden;  /* Start hidden */
+    opacity: 0;           /* Start invisible */
+    display: none;
+    transition: opacity 0.5s ease, visibility 0s linear 0.5s; /* Smooth transition */
+
+}
+
+.class4 {
+    transition: height 0.5s ease;  /* Smooth height change */
+}
+
 .class5 {
+    /* margin-top: 5px; */
     /* background-color: red; */
     height: 55vh;
 
@@ -636,48 +705,60 @@ body {
     width: 10vw;
 }
 
-.class5{
+.class5 {
     /* background-color: red; */
     height: 105vh;
     width: 80vw;
     margin: auto;
     padding: 22px;
-    color: rgba(255, 255, 255, 0.7);;
+    color: rgba(255, 255, 255, 0.7);
+    ;
 }
-.class5 a{
-    
-    color: rgba(255, 255, 255, 0.7);;
+
+.class5 a {
+
+    color: rgba(255, 255, 255, 0.7);
+    ;
 }
-.row1{
+
+.row1 {
     margin-top: 50px;
     margin-bottom: 30px;
     padding: 5px;
     font-size: larger;
 }
-.listrows{
+
+.listrows {
     /* background-color: yellow; */
     padding: 5px;
     gap: 1px;
 }
-.row2, .row3, .row4, .row5{
-    margin:30px;
+
+.row2,
+.row3,
+.row4,
+.row5 {
+    margin: 30px;
     margin-bottom: 5px;
     display: flex;
     gap: 10rem;
     /* background-color: pink; */
-} 
-.balance{
+}
+
+.balance {
     /* background-color: red; */
     width: 200px;
     display: flex;
     align-items: center;
-    justify-content:flex-start
+    justify-content: flex-start
 }
-#edit{
+
+#edit {
     /* background-color: red; */
     width: 170px;
 }
-.lastrow{
+
+.lastrow {
     margin-top: 70px;
     margin-bottom: 70px;
 }
