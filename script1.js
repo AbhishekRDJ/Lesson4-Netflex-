@@ -37,7 +37,7 @@ function toggleBoxInfo(boxId) {
 
     if (!isExpanded) {
         // Expand the box and increase the height
-        class4.style.height = (originalHeight + heightChange) + 'vh';
+        class4.style.height = (heightChange+originalHeight/6) + 'vh';
         boxInfo.style.visibility = "visible";  // Make it visible
         boxInfo.style.display = "flex";
         boxInfo.style.opacity = "1";  // Fade in
@@ -47,7 +47,7 @@ function toggleBoxInfo(boxId) {
     } else {
         // Collapse the box and reset the height back to original
         isExpanded = false;  // Mark it as collapsed
-        class4.style.height = originalHeight + 'vh';  // Reset to original height
+        class4.style.height = heightChange+originalHeight/10 + 'vh';  // Reset to original height
         boxInfo.style.opacity = "0";  // Fade out
         boxes_info.style.opacity = "0";  // Fade out
         boxInfo.style.display = "none";
@@ -122,4 +122,18 @@ document.addEventListener('DOMContentLoaded', function() {
         input.focus();
         console.log("Input Focused!");  // Verify the input field is focused
     });
+});
+
+
+// making the backend of Get Started button 
+
+document.getElementById('first_input').addEventListener('click', function() {
+    var email = document.getElementById('first_input_section').value; 
+    if(email !== '') { 
+        window.location.href = 'https://www.netflix.com/signup/linkRegistration?locale=en-IN'; 
+        document.getElementById('first_input_section').value = ''
+    }
+    else {
+        alert('Enter Email To Get-Started');
+    }
 });
