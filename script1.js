@@ -1,8 +1,25 @@
 // movie card click 
-document.getElementById('card').addEventListener('click', function() {
+document.getElementById('card1').addEventListener('click', function() {
     // The link to open
     window.location.href = 'https://www.netflix.com/signup/registration?previousMode=welcome&locale=en-IN'; // Replace with your desired URL
 });
+document.getElementById('card2').addEventListener('click', function() {
+    // The link to open
+    window.location.href = 'https://www.netflix.com/signup/registration?previousMode=welcome&locale=en-IN'; // Replace with your desired URL
+});
+document.getElementById('card3').addEventListener('click', function() {
+    // The link to open
+    window.location.href = 'https://www.netflix.com/signup/registration?previousMode=welcome&locale=en-IN'; // Replace with your desired URL
+});
+document.getElementById('card4').addEventListener('click', function() {
+    // The link to open
+    window.location.href = 'https://www.netflix.com/signup/registration?previousMode=welcome&locale=en-IN'; // Replace with your desired URL
+});
+document.getElementById('card5').addEventListener('click', function() {
+    // The link to open
+    window.location.href = 'https://www.netflix.com/signup/registration?previousMode=welcome&locale=en-IN'; // Replace with your desired URL
+});
+
 
 
 // Q&A card click
@@ -83,4 +100,26 @@ document.getElementById('elj7tfr34').addEventListener('click', function () {
 });
 document.getElementById('elj7tfr35').addEventListener('click', function () {
     toggleBoxInfo('box6_info');
+});
+
+
+// clickable sign in button
+
+document.getElementById("sign_in_Button").addEventListener('click', function(){
+    window.location.href = 'https://www.netflix.com/signup/registration?previousMode=welcome&locale=en-IN'; // Replace with your desired URL
+
+})
+
+// to focus on the input section on clicking the button get started
+
+document.addEventListener('DOMContentLoaded', function() {
+    const button = document.getElementById('first_input');
+    const input = document.getElementById('first_input_section');
+    
+    // Debugging
+    button.addEventListener('click', function(){
+        console.log("Button Clicked!"); // Verify the button is clicked
+        input.focus();
+        console.log("Input Focused!");  // Verify the input field is focused
+    });
 });

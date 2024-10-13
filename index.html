@@ -19,7 +19,6 @@
                 <div class="nev_button">
                     <button class="btn" id="Language_selector">English &darr;</button>
                     <button class="btn Red-btn" id="sign_in_Button">Sign In</button>
-
                 </div>
             </div>
             <div class="class1_content">
@@ -28,10 +27,8 @@
                 <div id="3">Starts at ₹149. Cancel at any time.</div>
                 <div id="4">Ready to watch? Enter your email to create or restart your membership.</div>
                 <div class="detail">
-                    <input type="email" placeholder="Email Address" required>
-
-                    <button class="btn Red-btn Getting_start">Get Started &#x27A4;</button>
-
+                    <input id="first_input_section" type="email" placeholder="Email Address" required>
+                    <button class="btn Red-btn Getting_start" id="first_input">Get Started &#x27A4;</button>
                 </div>
             </div>
         </div>
@@ -54,27 +51,27 @@
             </div>
 
             <div class="Movie_list" class="mySwiper" pagination="true">
-                <div class="card" id="card">
+                <div class="card" id="card1">
                     <span
                         style="background-image:url(https://occ-0-2087-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABeNW_c9U9xz-Et1ZyU6zq1A1X3Dpuw90kY4WTTX0QqT4Rob8rlDd4Mf17LnqNX6gM74q5aFjQYrm6Qh_Q_EKy8nIXrmKqcPcmdg0zLxXZgSdtu2nUMRa6PxDDGR8M7oGuD3ujQNmDWC9aCnW3THvp4e-LQv46PNAEJwsV1pFD7CQAoFEHu_eOUHvgH2XQxsXjb4QU-pjKFKRs7nRS5N7eFOL9Slo2nWZqW5fB6jvhFJq7PPEu_qMYmS4EkjitCOpa5E8GmbfZwv4jbRGahoc1J4QLX8UuG2CzftTm8Fxw-VmMxsx-MPTM23iLhefxi2FaaLNT-JAAjzYeeEh6eS2l7I.webp?r=7a3)"
                         class="default-ltr-cache-cf8xw5 ekc72im3"></span>
                 </div>
-                <div class="card" id="card">
+                <div class="card" id="card2">
                     <span
                         style="background-image:url(https://occ-0-2087-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABekOyOEc0IMYCBzL1U12H-gMP39eTC0zZ0CawiEZfsVVEVfuzAXMWo1_7HVifGiVAezM9MLKJ-zMYF5vU2NZj1GAFKpJhPsJ9wD8412kiexuLATsJwlbCipYevBS8u1H_C0GtTn9c_dBQCtGd1H7CsnPPEeeLBX_VOpjX3-MufmSG3wQycmQXMFQVYJT4Pz8SM98uF8rVn1JhdfcmuopEFfxoojgtxEMvhFWitJ_62GUbqydRNfqfpurMuRLitUusP3nmdQGJ0G_I8ryAjgF4Ur7F2WKNrSALVuW3SarpyVl0Q4rv9U2IwglhY0wk_AGVwhJMiC1SNYaoofog4iInvE.webp?r=6b0)"
                         class="default-ltr-cache-cf8xw5 ekc72im3"></span>
                 </div>
-                <div class="card" id="card">
+                <div class="card" id="card3">
                     <span
                         style="background-image:url(https://occ-0-2087-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABQlhuLDSFXrtuLYjXJUva-J4u1j1MstHGwg5edWUYAaJQoRvUD9EYyEDvjP4rkJSVXa-qIeoO28-plwGJhGr8lG4jMypkQBXhllC_uu53LgEH6gI7GNxKLAgMe94KW8YkEBUvATzfJ5P-e5eJYiRVO2iXpShZDfZqC7dggO8lXcDD0gszeFGJHdc2ZAmWfrzzgQ5yK-UlqWLe2zMpwRe3k6Xo29_FqmSX4w1-YayEbd2Yl3kmjSlKOGXimqDynL_vl_AtlJjb-GNfCNab54967NU3F-A8kwOVa3ATfQk15TPRRR_CDKtIeHjnha43XXQVLKZzsd8CS_kJ7_nrV7mw4jv6hGLUU8WlJkuHEFX_vKhA93srTs.webp?r=cb7)"
                         class="default-ltr-cache-cf8xw5 ekc72im3"></span>
                 </div>
-                <div class="card" id="card">
+                <div class="card" id="card4">
                     <span
                         style="background-image:url(https://occ-0-2087-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABQQaAEyFlAZti5cHqUIjHQyDXKgJdWmhZYcFy3TGJxSpMW0mU3-zYLcZwdnMz34pwG77OpbIjovQIqlL2Ojj5Dz2PQks0-0R3Ceylcil-b5X1j4wFVyHzCXbWmJmBPDtiUV8q6cNXbdTtaB1EWmS8utsPwhWLBUP_4tz7pjsM_vtrJegWydkcqaTpYN1h8MV4kR2UygB4dXlPBv0hBS8Lp2jHnVuMSBg1nJD1_p-4-m9JGhWTIcl9IGhI1f5EIV8d_zV8TRysIMJ7Hl7w6Ouy7YIdck8.webp?r=d7f)"
                         class="default-ltr-cache-cf8xw5 ekc72im3"></span>
                 </div>
-                <div class="card" id="card">
+                <div class="card" id="card5">
                     <span
                         style="background-image:url(https://occ-0-2087-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABRI6G-YI41kxtUQ_Q7Zbv2hDMmaE6UO55X8-4MeSYoCmguFroUSLc6D3e2LpBqDv0xvH8vMC_uBJW1yNZH2PiNJhVGWcBKcgGVcsyZpP_oeVvbdBYD4LYMD52UrTWWdW6ibdJ_d9x5s5T9CZF76OrfKCCXHjUHkauask_ikoPuKd9E30OiIxNnvutvKd_FxT9YLe9Rd1lJceznPKoB0vBtZ1iI0UfRme4Stq9DuRIyr3Jx-YVbaWjDxvPjr90ihIfKXKoOxGNOFHQOv9JumyvyJAWdKvs4tNlqj7RABPczxWHAjg_WtVvyEmY7mmb2QKDaIHnebpl1NDHttdN1xsAoQ.webp?r=4e6)"
                         class="default-ltr-cache-cf8xw5 ekc72im3"></span>

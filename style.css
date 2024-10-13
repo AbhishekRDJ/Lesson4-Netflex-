@@ -193,11 +193,10 @@ body {
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-.btn:hover {
-    background-color: #ff4081;
-    /* Change background color on hover */
-    transform: scale(1.1);
-    /* Slightly enlarge the button */
+.detail input:focus {
+    outline: none; /* Remove default focus outline */
+    /* border: 2px solid #ff4081; Highlight the border when focused */
+    background-color: rgba(255, 255, 255, 0.029); 
 }
 
 .btn:active {
